@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://img.icons8.com/color/96/null/calculator--v1.png" type="image/x-icon">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="watermark">Created ✏️ by Vivek Chavhan💟</div>
+
+    <div class="calulatro-body">
+
+        <div class="message">Invalid Input</div>
+
+        <div class="main-container">
+            <div class="nav-bar">
+                <div class="time"></div>
+                <div class="center-bar">
+                    <p class="speker-icon"></p>
+                    <i class="fa-solid fa-circle "></i>
+                </div>
+                <div class="right-bar">
+                    <i class="fa-solid fa-battery-full fa-xl battery"></i>
+                    <i class="fa-solid fa-wifi wifi"></i>
+                </div>
+            </div>
+
+            
+
+            <input class="input" id="inputext" type="text" placeholder="0">
+            <button onclick="clr()">AC</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="claculate('%')">%</button>
+            <button onclick="claculate('/')">/</button>
+            <button onclick="claculate(9)">9</button>
+            <button onclick="claculate(8)">8</button>
+            <button onclick="claculate(7)">7</button>
+            <button onclick="claculate('*')">*</button>
+            <button onclick="claculate(6)">6</button>
+            <button onclick="claculate(5)">5</button>
+            <button onclick="claculate(4)">4</button>
+            <button onclick="claculate('+')">+</button>
+            <button onclick="claculate(3)">3</button>
+            <button onclick="claculate(2)">2</button>
+            <button onclick="claculate(1)">1</button>
+            <button onclick="claculate('-')">-</button>
+            <button onclick="claculate('.')">.</button>
+            <button onclick="claculate(0)">0</button>
+            <button onclick="Result()" class="equal">=</button>
+
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
